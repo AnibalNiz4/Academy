@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+body {
+  background-image: 
+    radial-gradient(#09f 1.5px, transparent 1.5px),
+    radial-gradient(#09f 1px, transparent 1px);
+  background-position: 0 0, 25px 25px;
+  background-size: 50px 50px;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: #323232;
+
+  &:focus {
+    color: #323232;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+li {
+  list-style: none;
+  cursor: pointer;
+  position: relative;
+}

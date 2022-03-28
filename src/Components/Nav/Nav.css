@@ -1,0 +1,14 @@
+.navContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 1111;
+  padding: 10px 40px;
+  max-width: 1440px;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=Nav.css.map */

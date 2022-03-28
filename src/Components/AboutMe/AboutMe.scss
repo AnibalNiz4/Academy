@@ -1,0 +1,115 @@
+.aboutContainer {
+    max-width: 1440px;
+    background: #09f;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+
+    & .aboutTitle {
+        margin: 30px 0;
+        border-bottom: 2px solid #ffc046;
+        color: #f2f2f2;
+        font-size: 35px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    & .aboutText {
+        width: 60%;
+        text-align: center;
+        color: #f2f2f2;
+        font-weight: 300;
+        font-size: 18px;
+    }
+
+    & .cardsAbout {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        & .cardAbout {
+            height: 200px;
+            width: 270px;
+            background: #fafafa;
+            border-radius: 10px;
+            margin: 60px 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: #323232;
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, .4);
+
+            & .iconAbout {
+                height: 50px;
+                width: 50px;
+                
+                & img {
+                    height: 100%;
+                }
+            }
+
+            & h3 {
+                font-size: 18px;
+            }
+
+            & p {
+                padding: 5px 20px;
+                text-align: center;
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .aboutContainer {
+        & .cardsAbout {
+            & .cardAbout {
+                margin: 30px 20px 0 20px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .aboutContainer {
+        padding: 30px 0;
+    
+        & .aboutTitle {
+            margin: 0 0 20px 0;
+            font-size: 25px;
+        }
+    
+        & .aboutText {
+            width: 80%;
+            font-size: 16px;
+        }
+    
+        & .cardsAbout {
+            & .cardAbout {
+                height: 180px;
+                width: 250px;
+
+                & .iconAbout {
+                    height: 40px;
+                    width: 40px;
+                    
+                    & img {
+                        height: 100%;
+                    }
+                }
+    
+                & h3 {
+                    margin: 5px 0;
+                    font-size: 16px;
+                }
+    
+                & p {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}

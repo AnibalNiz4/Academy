@@ -1,0 +1,164 @@
+.homeContainer {
+    height: 600px;
+    max-width: 1440px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    margin: 0 auto;
+    overflow: hidden;
+
+    & .imgHome {
+        height: 100%;
+        max-height: 600px;
+        position: absolute;
+    }
+
+    & .arrowHome {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        width: 100%;
+
+        & img {
+            height: 500px;
+        }
+    }
+
+    & .textHome {
+        width: 400px;
+        position: absolute;
+        right: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: 20px;
+
+        & .networksHome {
+            margin-top: 50px;
+
+            & img {
+                cursor: pointer;
+                opacity: .8;
+            }
+
+            & img:hover {
+                opacity: 1;
+            }
+
+            & img:first-child {
+                margin-right: 20px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .homeContainer {
+        height: 400px;
+    
+        & .arrowHome {
+    
+            & img {
+                height: 350px;
+            }
+        }
+    
+        & .textHome {
+            width: 300px;
+            right: 15px;
+            font-size: 16px;
+    
+            & .networksHome {
+                margin-top: 50px;
+    
+                & img {
+                    height: 25px;
+                }
+            }
+        }
+    }
+    
+}
+
+@media screen and (max-width: 800px){
+    .homeContainer {
+        height: 300px;
+    
+        & .arrowHome {
+    
+            & img {
+                height: 250px;
+            }
+        }
+    
+        & .textHome {
+            width: 250px;
+            right: 15px;
+            font-size: 14px;
+    
+            & .networksHome {
+                margin-top: 20px;
+    
+                & img {
+                    height: 25px;
+                }
+            }
+        }
+    }
+    
+}
+
+@media screen and (max-width: 600px){
+    .homeContainer {
+        height: 300px;
+    
+        & .arrowHome {
+    
+            & img {
+                display: none;
+            }
+        }
+    
+        & .textHome {
+            width: 280px;
+            right: 50px;
+            font-size: 14px;
+    
+            & .networksHome {
+                margin-top: 20px;
+    
+                & img {
+                    height: 25px;
+                }
+            }
+        }
+    }
+    
+}
+
+@media screen and (max-width: 500px){
+    .homeContainer {
+    
+        & .textHome {
+            background: rgba(255, 255, 255, .5);
+            padding: 5px 20px;
+            border-radius: 10px;
+            backdrop-filter: blur(2px);
+            border: 1px solid rgba(0, 0, 0, .5);
+            left: 50%;
+            transform: translateX(-50%);
+    
+            & .networksHome {
+                margin-top: 20px;
+    
+                & img {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+    
+}

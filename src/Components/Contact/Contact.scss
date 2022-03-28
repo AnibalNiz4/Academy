@@ -1,0 +1,182 @@
+.contactContainer {
+    max-width: 1440px;
+    margin: 0 auto;
+    background: #ffc046;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & .contactForm {
+        margin: 80px 0;
+        width: 500px;
+        background: #ffffff;
+        border-radius: 10px;
+        padding: 50px;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, .4);
+
+        & h2 {
+            margin-bottom: 30px;
+            color: #09f;
+        }
+
+        & .nameContainer, .subjectsContainer, .emailContainer, .messageContainer {
+            display: flex;
+            flex-direction: column;
+            background: transparent;
+
+            & .subjectsName {
+                text-align: left;
+                width: 100%;
+            }
+
+            & .subjects {
+                margin: 10px 0 ;
+                width: 100%;
+                padding: 8px;
+                text-align: center;
+                outline: none;
+                border: none;
+                background: #efefef;
+                border-radius: 5px;
+
+                &:focus {
+                    outline: none;
+                    border: 1px solid #09f;
+                }
+            }
+        }
+
+        & input {
+            margin: 10px 0;
+            border: 0;
+            border-radius: 5px;
+            background: #efefef;
+            height: 30px;
+            padding: 10px;
+
+            &:focus {
+                outline: none;
+                border: 1px solid #09f;
+            }
+        }
+
+        & textarea {
+            resize: none;
+            height: 100px;
+            border: 0;
+            border-radius: 5px;
+            background: #efefef;
+            padding: 10px;
+            margin-top: 10px;
+
+            &:focus {
+                outline: none;
+                border: 1px solid #09f;
+            }
+        }
+
+        & button {
+            margin-top: 20px;
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background: #09f;
+            font-size: 18px;
+            color: #fafafa;
+            cursor: pointer;
+            opacity: .9;
+
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .contactContainer {
+    
+        & .contactForm {
+            margin: 40px 0;
+            width: 80%;
+            padding: 40px;
+    
+            & h2 {
+                margin-bottom: 20px;
+                font-size: 18px;
+            }
+    
+            & .nameContainer, .subjectsContainer, .emailContainer, .messageContainer {
+                
+                & label {
+                    font-size: 13px;
+                }
+    
+                & .subjects {
+                    font-size: 13px;
+                }
+            }
+    
+            & input {
+                font-size: 13px;
+            }
+    
+            & textarea {
+                font-size: 13px;
+    
+                &:focus {
+                    outline: none;
+                    border: 1px solid #09f;
+                }
+            }
+    
+            & button {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .contactContainer {
+    
+        & .contactForm {
+            width: 85%;
+            padding: 20px;
+    
+            & h2 {
+                font-size: 16px;
+            }
+    
+            & .nameContainer, .subjectsContainer, .emailContainer, .messageContainer {
+                
+                & label {
+                    font-size: 12px;
+                }
+    
+                & .subjects {
+                    padding: 4px;
+                    font-size: 12px;
+                }
+            }
+    
+            & input {
+                height: 24px;
+                padding: 4px;
+                font-size: 12px;
+            }
+    
+            & textarea {
+                height: 70px;
+                font-size: 12px;
+            }
+    
+            & button {
+                margin-top: 10px;
+                padding: 5px;
+                font-size: 13px;
+            }
+        }
+    }
+}
