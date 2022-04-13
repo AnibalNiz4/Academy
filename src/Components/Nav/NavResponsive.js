@@ -12,7 +12,7 @@ export default function NavRes() {
     return (
         <>
             <div className={active ? 'navResContainer' : 'navResContainer navResBlue'}>
-                    <h1> Academia <br/> Santa Fe</h1>
+                    <h1>Academia TEC</h1>
                 <div className={active ? 'hamburgerNav' : 'hamburgerNav active'} onClick={hamburgerActive}>
                     <span className='spanNav1' ></span>
                     <span className='spanNav2' ></span>

@@ -1,4 +1,3 @@
-//import imgBanner from '/bannerImg.jpg';
 import './home.scss';
 const imgBanner = '/bannerImg.jpg';
 const arrowBanner = './Arrow.png';
@@ -19,11 +18,11 @@ export default function HomeJs() {
 
             <div className='textHome'>
                 <h1>
-                    Texto principal de la página ni bien entras (?
+                    Academia TEC: formación tecnológica y creativa.
                 </h1>
                 <div className='networksHome'>
-                    <img alt='' src={faceIcon} />
-                    <img alt='' src={instaIcon} />
+                    <a href='https://www.instagram.com/cfe.stafe/' target='_blank' ><img alt='' src={instaIcon} /></a>
+                    <a ><img alt='' src={faceIcon} /></a>
                 </div>
             </div>
         </div>

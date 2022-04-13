@@ -29,18 +29,7 @@ export default function Subjects() {
                     <div className='hoverCard' >
                         <h4>Milagros Rabellino</h4>
                         <p>Estudiante de Profesorado en Matemática</p>
-                        <a href='#'>Ver plan</a>
-                    </div>
-                </div>
-                
-                <div className='subjectCard' >
-                    <h3>Inglés</h3>
-                    <div className='imgSubject'>
-                        <img alt='' src={ingles} />
-                    </div>
-
-                    <div className='hoverCard' >
-                        
+                        <a href='./programaMate.pdf' target='_blank' >Ver plan</a>
                     </div>
                 </div>
 
@@ -53,7 +42,7 @@ export default function Subjects() {
                     <div className='hoverCard' >
                         <h4>Anibal Niz y Julieta de Salazar</h4>
                         <p>Desarrollador Front-end y Desarrolladora Full-stack</p>
-                        <a href='#'>Ver plan</a>
+                        <a href='./programaDesarrollo.pdf' target='_blank' >Ver plan</a>
                     </div>
                 </div>
 
@@ -66,7 +55,7 @@ export default function Subjects() {
                     <div className='hoverCard' >
                         <h4>Brenda Uriona</h4>
                         <p>Profesora de música <br/> (UNL - Santa Fe)</p>
-                        <a href='#'>Ver plan</a>
+                        <a href='./programaMusica.pdf' target='_blank' >Ver plan</a>
                     </div>
                 </div>
             </div>

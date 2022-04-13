@@ -6,7 +6,7 @@ export default function Nav() {
         <div className="navContainer">
             <a href='#home'>
                 <h2>
-                    Academia <br/> Santa Fe
+                    Academia TEC
                 </h2>
             </a>
             

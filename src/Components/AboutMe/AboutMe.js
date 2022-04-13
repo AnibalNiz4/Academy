@@ -11,29 +11,29 @@ export default function AboutMe() {
                 Quiénes somos
             </h1>
             <p className='aboutText'>
-                Somos un grupo de personas comprometidas con la educación de la más alta calidad. Creemos que la formación del s. XXI  requiere de tecnología, creatividad y comunicación. Es nuestra meta ofrecer una propuesta integral para potenciar el perfil profesional de cada estudiante.
+            Somos un grupo de personas que creemos que la formación del s.XXI requiere de tecnología, creatividad y mejora continua. Es nuestra meta ofrecer una propuesta de educación integral eficiente, para potenciar el perfil profesional de cada estudiante, de manera ágil y práctica.
             </p>
             <div className='cardsAbout'>
                 <div className='cardAbout'>
                     <div className='iconAbout'>
                         <img alt='' src={quality} />
                     </div>
-                    <h3>Texto a poner</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    <h3>Calidad</h3>
+                    <p>Recibirás educación con contenidos actualizados, y de manera eficiente.</p>
                 </div>
                 <div className='cardAbout'>
                     <div className='iconAbout'>
                         <img alt='' src={practice} />
                     </div>
-                    <h3>Texto a poner</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    <h3>Práctica constante</h3>
+                    <p>Pondrás en práctica todo lo aprendido en clase.</p>
                 </div>
                 <div className='cardAbout'>
                     <div className='iconAbout'>
                         <img alt='' src={help} />
                     </div>
-                    <h3>Texto a poner</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    <h3>Asistencia</h3>
+                    <p>Tendrás un acompañamiento personalizado.</p>
                 </div>
             </div>
         </div>
