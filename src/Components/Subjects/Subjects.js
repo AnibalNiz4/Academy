@@ -2,8 +2,8 @@ import './Subjects.scss';
 
 //Subjects
 const matematicas = './matematicas.jpg';
-//const ingles = './ingles.jpg';
-const programacion = './programacion.jpeg';
+const aireAcondicionado = './aireAcondicionado.jpg';
+// const programacion = './programacion.jpeg';
 const musica = './musica.jpg';
 
 //Photos
@@ -47,16 +47,15 @@ export default function Subjects() {
                 </div>
 
                 <div className='subjectCard' >
-                    <h3>Desarrollo Web</h3>
+                    <h3>Instalación aire acondicionado</h3>
                     <div className='imgSubject'>
-                        <img alt='' src={programacion} />
+                        <img alt='' src={aireAcondicionado} />
                     </div>
 
                     <div className='hoverCard' >
-                        <h4>Julieta de Salazar</h4>
-                        <p>Desarrolladora Full-stack</p>
-                        <p className='prox'>PRÓXIMAMENTE...</p>
-                        {/* <a href='./programaDesarrollo.pdf' target='_blank' >Ver plan</a> */}
+                        <h4>Emilio J. de Salazar</h4>
+                        <p>Técnico en refrigeración</p>
+                        <a href='./programaAireAcondicionado.pdf' target='_blank' >Ver plan</a>
                     </div>
                 </div>
             </div>

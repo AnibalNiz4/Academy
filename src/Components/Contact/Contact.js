@@ -27,8 +27,8 @@ export default function Contact() {
                     <label className='subjectsName' for='subjects' >Materia</label>
                     <select className='subjects' name="interest">
                         <option>Matemáticas</option>
-                        {/* <option>Desarrollo Web</option> */}
                         <option>Teclado/Piano</option>
+                        <option>Instalación aire acondicionado</option>
                     </select>
                 </div>
                 <div className='emailContainer'>

@@ -40,7 +40,7 @@ export default function NavRes() {
                 </ul>
 
                 <div className='networksNavRes'>
-                    <a href='https://www.instagram.com/cfe.stafe/' target='_blank' ><img alt='' src={instaIcon} /></a>
+                    <a href='https://www.instagram.com/academiatec.stafe/' target='_blank' ><img alt='' src={instaIcon} /></a>
                     <a href='https://www.facebook.com/AcademiaTEC.SantaFe' target='_blank' ><img alt='' src={faceIcon} /></a>
                 </div>
             </div>

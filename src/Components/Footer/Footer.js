@@ -12,7 +12,7 @@ export default function Footer() {
                 <div className='cardFooter' >
                     <img alt='' src={location} />
                     <h3>Encontranos</h3>
-                    <p>Güemes 4271 - Santa Fe</p>
+                    <p>25 de Mayo 2534 - Santa Fe</p>
                 </div>
                 <div className='cardFooter' >
                     <img alt='' src={phone} />
@@ -20,10 +20,11 @@ export default function Footer() {
                     <p>342 4343768 - Matemáticas</p>
                     {/* <p>342 5541915 - Desarrollo Web</p> */}
                     <p>3455 407797 - Teclado/Piano</p>
+                    <p>3455 407797 - Instalación aire</p>
                 </div>
             </div>
             <div className='footerName'>
-                <a href='https://www.instagram.com/cfe.stafe/' target='_blank' ><img alt='' src={instaIcon} /></a>
+                <a href='https://www.instagram.com/academiatec.stafe/' target='_blank' ><img alt='' src={instaIcon} /></a>
                 <h3>Academia TEC - Santa Fe</h3>
                 <a href='https://www.facebook.com/AcademiaTEC.SantaFe' target='_blank' ><img alt='' src={faceIcon} /></a>
             </div>
