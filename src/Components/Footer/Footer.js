@@ -18,14 +18,14 @@ export default function Footer() {
                     <img alt='' src={phone} />
                     <h3>Comunicate</h3>
                     <p>342 4343768 - Matemáticas</p>
-                    <p>342 5541915 - Desarrollo Web</p>
-                    <p>3455 407797 - Música</p>
+                    {/* <p>342 5541915 - Desarrollo Web</p> */}
+                    <p>3455 407797 - Teclado/Piano</p>
                 </div>
             </div>
             <div className='footerName'>
                 <a href='https://www.instagram.com/cfe.stafe/' target='_blank' ><img alt='' src={instaIcon} /></a>
                 <h3>Academia TEC - Santa Fe</h3>
-                <a ><img alt='' src={faceIcon} /></a>
+                <a href='https://www.facebook.com/AcademiaTEC.SantaFe' target='_blank' ><img alt='' src={faceIcon} /></a>
             </div>
         </div>
     )

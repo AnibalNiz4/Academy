@@ -2,7 +2,7 @@ import './Subjects.scss';
 
 //Subjects
 const matematicas = './matematicas.jpg';
-const ingles = './ingles.jpg';
+//const ingles = './ingles.jpg';
 const programacion = './programacion.jpeg';
 const musica = './musica.jpg';
 
@@ -34,20 +34,7 @@ export default function Subjects() {
                 </div>
 
                 <div className='subjectCard' >
-                    <h3>Desarrollo Web</h3>
-                    <div className='imgSubject'>
-                        <img alt='' src={programacion} />
-                    </div>
-
-                    <div className='hoverCard' >
-                        <h4>Anibal Niz y Julieta de Salazar</h4>
-                        <p>Desarrollador Front-end y Desarrolladora Full-stack</p>
-                        <a href='./programaDesarrollo.pdf' target='_blank' >Ver plan</a>
-                    </div>
-                </div>
-
-                <div className='subjectCard' >
-                    <h3>Música</h3>
+                    <h3>Teclado/Piano</h3>
                     <div className='imgSubject'>
                         <img alt='' src={musica} />
                     </div>
@@ -56,6 +43,20 @@ export default function Subjects() {
                         <h4>Brenda Uriona</h4>
                         <p>Profesora de música <br/> (UNL - Santa Fe)</p>
                         <a href='./programaMusica.pdf' target='_blank' >Ver plan</a>
+                    </div>
+                </div>
+
+                <div className='subjectCard' >
+                    <h3>Desarrollo Web</h3>
+                    <div className='imgSubject'>
+                        <img alt='' src={programacion} />
+                    </div>
+
+                    <div className='hoverCard' >
+                        <h4>Julieta de Salazar</h4>
+                        <p>Desarrolladora Full-stack</p>
+                        <p className='prox'>PRÓXIMAMENTE...</p>
+                        {/* <a href='./programaDesarrollo.pdf' target='_blank' >Ver plan</a> */}
                     </div>
                 </div>
             </div>
